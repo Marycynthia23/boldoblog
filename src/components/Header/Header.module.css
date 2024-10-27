@@ -1,0 +1,146 @@
+.HeaderContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5% 0;
+    background-color: #FFF;
+    position: fixed;
+    top: 0;
+    width: 88%;
+    z-index: 1001;
+    margin: auto;
+  }
+  
+  .Logo {
+    width: 163px;
+    height: 42px;
+  }
+  
+  .NavLinks {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .NavList {
+    list-style-type: none;
+  }
+  
+  .NavItem {
+    text-decoration: none;
+    font-family: Open Sans, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #0A2640;
+    padding: 12px 24px;
+  }
+  
+  .NavItemBtn {
+    padding: 8px 40px;
+    border: 2px solid #0a2640;
+    border-radius: 24px;
+    font-weight: 700;
+    color: #0A2640;
+  }
+  
+  .Hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 4px;
+  }
+  
+  .Bar, .BarOpen {
+    width: 25px;
+    height: 3px;
+    background-color: #0A2640;
+    transition: transform 0.3s ease;
+  }
+    
+  @media (max-width: 768px) {
+    .NavLinks {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      right: 0;
+      background-color: #FFF;
+      width: 100%;
+      align-items: center;
+      padding-top: 20px;
+      gap: 10px;
+    }
+    
+    .NavLinksOpen {
+      display: flex;
+    }
+  
+    .Hamburger {
+      display: flex;
+    }
+  
+    .BarOpen:nth-child(1) {
+      transform: rotate(45deg) translate(5px, 5px);
+    }
+  
+    .BarOpen:nth-child(2) {
+      opacity: 0;
+    }
+  
+    .BarOpen:nth-child(3) {
+      transform: rotate(-45deg) translate(6px, -6px);
+    }
+  
+    .NavItem {
+      padding: 10px;
+    }
+  
+    .NavItemBtn {
+      padding: 8px 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .NavLinks {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      right: 0;
+      background-color: #FFF;
+      width: 100%;
+      align-items: center;
+      padding-top: 20px;
+      gap: 10px;
+    }
+    
+    .NavLinksOpen {
+      display: flex;
+    }
+  
+    .Hamburger {
+      display: flex;
+    }
+  
+    .BarOpen:nth-child(1) {
+      transform: rotate(45deg) translate(5px, 5px);
+    }
+  
+    .BarOpen:nth-child(2) {
+      opacity: 0;
+    }
+  
+    .BarOpen:nth-child(3) {
+      transform: rotate(-45deg) translate(6px, -6px);
+    }
+  
+    .NavItem {
+      padding: 10px;
+    }
+  
+    .NavItemBtn {
+      padding: 8px 20px;
+    }
+  }
+  

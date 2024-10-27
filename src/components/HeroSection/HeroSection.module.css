@@ -1,0 +1,230 @@
+.HeroContainer{
+    padding: 2.5% 0%;
+    margin-top: 70px;
+}
+.HeaderInfo{
+    margin: auto;
+    text-align: center;
+
+}
+.Section{
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 0;
+    
+}
+.BoldText{
+    margin-top: 0;
+    font-family: Manrope;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 84px;
+    
+}
+.MockUpContainer{
+display: flex;
+gap: 100px;
+}
+.Mockup{
+    width: 90%;
+    height: 400px;
+    top: 366px;
+    left: 100px;
+    gap: 0px;
+    border-radius: 24px 0px 0px 0px;
+    
+}
+.MockupContent{
+    display: flex;
+    align-items: center;
+    }
+.MockupInfo{
+align-items: center;
+}
+.CategoryContent{
+display: flex;
+align-items: center;
+margin-bottom: 0;
+gap: 12px;
+}
+.Category{
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+    color: #0A2640;
+}
+.CategoryDate{
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #777777;
+    
+}
+.Desc{
+    margin-top: 0;
+    font-family: Manrope;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 72px;
+    text-align: left;
+    margin-bottom: 0;
+    
+}
+.UserDetails{
+display: flex;
+align-items: center;
+gap: 12px;
+margin-top: 0;
+
+}
+.UserPic{
+    width: 32px;
+    height: 32px;
+}
+.User{
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+}
+.Line{
+border: 1px solid #0A2640;
+width: 100%;
+margin-top: 70px;
+}
+/* Desktop (1024px and up) */
+/* @media (min-width: 1024px) {
+    .BoldText {
+      font-size: 64px;
+      line-height: 84px;
+    }
+    
+    .Desc {
+      font-size: 32px;
+      line-height: 48px;
+    }
+  
+    .MockUpContainer {
+      gap: 50px;
+    }
+  } */
+  
+  
+@media (min-width: 768px) {
+    .MockUpContainer {
+      flex-direction: row;
+      gap: 30px;
+      justify-content: center;
+    }
+    
+    .BoldText {
+      font-size: 48px;
+      line-height: 60px;
+    }
+  
+    .Desc {
+      font-size: 24px;
+      line-height: 36px;
+      text-align: left;
+    }
+  }
+/* Mobile (up to 480px) */
+@media (max-width: 480px) {
+   
+    .HeaderInfo{
+        margin: auto;
+        text-align: center;
+    
+    }
+    .MockUpContainer{
+    display: flex;
+    flex-direction: column;
+    
+    }
+    .Mockup{
+        width: 100%;
+        
+    }
+    .MockupContent{
+        display: flex;
+        align-items: center;
+        }
+    .MockupInfo{
+    align-items: center;
+    }
+    .CategoryContent{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+    gap: 12px;
+    }
+    .Category{
+        font-family: Open Sans;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 28px;
+        text-align: left;
+        color: #0A2640;
+    }
+    .CategoryDate{
+        font-family: Open Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        color: #777777;
+        
+    }
+    .Desc{
+        margin-top: 0;
+        font-family: Manrope;
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 72px;
+        text-align: left;
+        margin-bottom: 0;
+        
+    }
+    .UserDetails{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 0;
+    
+    }
+    .UserPic{
+        width: 32px;
+        height: 32px;
+    }
+    .User{
+        font-family: Open Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: left;
+    }
+    .Line{
+    border: 1px solid #0A2640;
+    width: 100%;
+    margin-top: 70px;
+    }
+    
+    .BoldText {
+      font-size: 28px;
+      line-height: 40px;
+    }
+    
+    .Desc {
+      font-size: 18px;
+      line-height: 28px;
+    }
+  
+    .MockUpContainer {
+      gap: 15px;
+    }
+  }
