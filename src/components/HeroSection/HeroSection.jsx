@@ -18,7 +18,7 @@ const HeroSection = () => {
                     <p className={styles.Category}>Category</p>
                     <p className={styles.CategoryDate}>November 22, 2021</p>
                 </div>
-                <p className={styles.Desc}>Pitch termsheet backing validation focus release.</p>
+                <div className={styles.Desc}>Pitch termsheet backing validation focus release.</div>
                 <div className={styles.UserDetails}>
                     <img src={userpic} className={styles.UserPic} alt="userpic"/>
                     <p className={styles.User}>Chandler Bing</p>

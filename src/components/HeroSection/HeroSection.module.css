@@ -25,18 +25,16 @@
 }
 .MockUpContainer{
 display: flex;
-gap: 100px;
+
 }
 .Mockup{
-    width: 90%;
+    width: 45%;
     height: 400px;
-    top: 366px;
-    left: 100px;
-    gap: 0px;
-    border-radius: 24px 0px 0px 0px;
-    
+    border-radius: 24px;
+    margin-right: 5%;
 }
 .MockupContent{
+  width: 45%;
     display: flex;
     align-items: center;
     }
@@ -67,12 +65,14 @@ gap: 12px;
 }
 .Desc{
     margin-top: 0;
-    font-family: Manrope;
+    font-family: Manrope,sans-serif;
     font-size: 48px;
     font-weight: 400;
     line-height: 72px;
     text-align: left;
     margin-bottom: 0;
+    
+
     
 }
 .UserDetails{
@@ -98,23 +98,7 @@ border: 1px solid #0A2640;
 width: 100%;
 margin-top: 70px;
 }
-/* Desktop (1024px and up) */
-/* @media (min-width: 1024px) {
-    .BoldText {
-      font-size: 64px;
-      line-height: 84px;
-    }
-    
-    .Desc {
-      font-size: 32px;
-      line-height: 48px;
-    }
-  
-    .MockUpContainer {
-      gap: 50px;
-    }
-  } */
-  
+
   
 @media (min-width: 768px) {
     .MockUpContainer {
@@ -128,13 +112,12 @@ margin-top: 70px;
       line-height: 60px;
     }
   
-    .Desc {
+    /* .Desc {
       font-size: 24px;
       line-height: 36px;
       text-align: left;
-    }
+    } */
   }
-/* Mobile (up to 480px) */
 @media (max-width: 480px) {
    
     .HeaderInfo{
@@ -180,16 +163,7 @@ margin-top: 70px;
         color: #777777;
         
     }
-    .Desc{
-        margin-top: 0;
-        font-family: Manrope;
-        font-size: 48px;
-        font-weight: 400;
-        line-height: 72px;
-        text-align: left;
-        margin-bottom: 0;
-        
-    }
+    
     .UserDetails{
     display: flex;
     align-items: center;
