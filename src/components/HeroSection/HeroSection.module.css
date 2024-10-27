@@ -34,7 +34,7 @@ display: flex;
     width: 45%;
     height: 400px;
     border-radius: 24px;
-    margin-right: 5%;
+    margin-right: 7%;
 }
 .MockupContent{
   width: 45%;
@@ -110,7 +110,6 @@ margin-top: 70px;
   .Mockup,
   .MockupContent {
     width: 50%;
-    /* height: 350px; */
     margin-right: 0;
   }
 
