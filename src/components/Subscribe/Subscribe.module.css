@@ -15,10 +15,6 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* align-items: center; */
-    /* text-align: center; */
     width: 55%;
     color: #ffffff;
     z-index: 1; 
@@ -88,10 +84,6 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        /* display: flex; */
-        /* flex-direction: column; */
-        /* align-items: center; */
-        /* text-align: center; */
         width: 100%;
         color: #ffffff;
         z-index: 1; 
@@ -102,7 +94,7 @@
         font-family: Manrope, sans-serif;
         font-size: 26px;
         font-weight: 400;
-        line-height: 72px;
+        line-height: 42px;
         text-align: center;
         margin: auto;
         color: #ffffff;
@@ -119,7 +111,7 @@
     
     .EmailInput {
         width: 270px;
-        height: 56px;
+        height: 46px;
         border-radius: 240px;
         border: 2px solid #fff;
         font-family: "Open Sans", sans-serif;
@@ -127,11 +119,11 @@
         font-weight: 400;
         line-height: 32px;
         color: #000;
-        padding: 0 24px;
+        padding: 0px 24px;
     }
     
     .SubscribeBtn {
-        padding: 16px 56px;
+        padding: 10px 56px;
         border-radius: 56px;
         background-color: #65E4A3;
         font-family: "Open Sans", sans-serif;

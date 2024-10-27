@@ -1,5 +1,6 @@
 .HomePageConatainer{
     padding: 0 6%;
+    overflow: hidden;
 }
 @media (max-width: 480px){
     

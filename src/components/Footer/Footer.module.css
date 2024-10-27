@@ -91,11 +91,10 @@ color: #0A2640;
         .CompanyDetails{
         width: 100%;
         }
-        .Logo{
-            width: 163px;
-            height:42px;
-            gap: 1;
-        }
+        .Logo {
+            width: 123px;
+            height: 32px;
+          }
         
         .About{
             font-family: Open Sans;
