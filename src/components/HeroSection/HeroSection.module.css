@@ -101,14 +101,59 @@ border: 1px solid #0A2640;
 width: 100%;
 margin-top: 70px;
 }
+@media (max-width: 1024px) {
+  .MockUpContainer {
+    gap: 20px;
+    align-items: center;
+  }
 
+  .Mockup,
+  .MockupContent {
+    width: 50%;
+    /* height: 350px; */
+    margin-right: 0;
+  }
+
+  .BoldText {
+    font-size: 48px;
+    line-height: 60px;
+  }
+
+  .Desc {
+    font-size: 32px;
+    line-height: 50px;
+  }
+}
   
-@media (min-width: 768px) {
-    .MockUpContainer {
-      flex-direction: row;
-      gap: 30px;
-      justify-content: center;
-    }
+@media (max-width: 768px) {
+  .HeaderInfo{
+    padding: 1%;
+
+}
+  .MockUpContainer {
+    gap: 30px;
+    justify-content: center;
+  }
+
+  .Mockup {
+    width: 50%;
+    height: 250px;
+    margin-right: 0;
+  }
+
+  .MockupContent {
+    width: 50%;
+  }
+
+  .BoldText {
+    font-size: 42px;
+    line-height: 48px;
+  }
+
+  .Desc {
+    font-size: 26px;
+    line-height: 48px;
+  }
     
   }
 @media (max-width: 480px) {

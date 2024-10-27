@@ -101,9 +101,59 @@ height: 90px;
     text-decoration: none;
 }
 
-@media (max-width: 480px){
-
-}
+@media (max-width: 1024px) {
+    .NewsContainer{
+        padding: 1% 2%;
+        
+        }
+    .Title {
+      font-size: 40px;
+      padding-left: 3%;
+    }
+    
+    .Cards {
+      column-gap: 10px;
+      row-gap: 50px;
+    }
+    
+    .Card {
+      width: 31%;
+    }
+    
+    .Desc {
+      font-size: 18px;
+      line-height: 28px;
+    }
+    
+    .Btn {
+      width: 15%;
+    }
+  }
+  @media (max-width: 768px) {
+    .Title {
+        font-size: 40px;
+        padding-left: 5%;
+      }
+      
+      .Cards {
+        column-gap: 20px;
+        row-gap: 20px;
+      }
+      
+      .Card {
+        width: 46%;
+      }
+      
+      .Desc {
+        font-size: 18px;
+        line-height: 28px;
+      }
+      
+      .Btn {
+        width: 20%;
+      }
+      }
+  
 @media (max-width: 480px){
     .Title{
         font-family: Manrope;
