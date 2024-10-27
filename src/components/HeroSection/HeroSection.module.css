@@ -5,6 +5,7 @@
 .HeaderInfo{
     margin: auto;
     text-align: center;
+    padding: 3%;
 
 }
 .Section{
@@ -13,6 +14,7 @@
     font-weight: 400;
     line-height: 32px;
     margin-bottom: 0;
+    color: #0A2640;
     
 }
 .BoldText{
@@ -21,6 +23,7 @@
     font-size: 64px;
     font-weight: 400;
     line-height: 84px;
+    color: #0A2640;
     
 }
 .MockUpContainer{
@@ -107,16 +110,6 @@ margin-top: 70px;
       justify-content: center;
     }
     
-    .BoldText {
-      font-size: 48px;
-      line-height: 60px;
-    }
-  
-    /* .Desc {
-      font-size: 24px;
-      line-height: 36px;
-      text-align: left;
-    } */
   }
 @media (max-width: 480px) {
    
@@ -137,6 +130,7 @@ margin-top: 70px;
     .MockupContent{
         display: flex;
         align-items: center;
+        width: 100%;
         }
     .MockupInfo{
     align-items: center;
